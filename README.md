@@ -1,0 +1,1 @@
+Hi everyone! This is the repo for the anime club neocities cite. This is here so that I can do fast development on the website on my PC and when I'm done then I can upload to neocities using their api.
