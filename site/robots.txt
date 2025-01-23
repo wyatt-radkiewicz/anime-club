@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://bsuanime.neocities.org/sitemap.xml
