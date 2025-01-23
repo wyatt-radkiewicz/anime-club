@@ -1,0 +1,271 @@
+/* global like stuff */
+body {
+    background-image: url("/images/base/bg.jpg");
+    background-repeat: repeat;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    color: rgb(221, 217, 234);
+}
+
+strong, em {
+    color: rgb(244, 247, 204);
+}
+
+h1, h2, h3, h4 {
+    text-shadow: 3px 3px rgb(10, 5, 11);
+}
+
+h2 {
+    font-size: 16px;
+    font-style: italic;
+}
+
+a {
+    color: rgb(200, 157, 53);
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 3px 3px rgb(10, 5, 11);
+}
+
+#alt {
+    position: absolute;
+    display: inline-block;
+    left: 8px;
+    top: 256px;
+    width: 240px;
+}
+
+#main {
+    position: absolute;
+    display: inline-block;
+    left: 256px;
+    top: 256px;
+    width: 512px;
+}
+
+#alt-right {
+    position: absolute;
+    display: inline-block;
+    left: 776px;
+    top: 256px;
+    width: 240px;
+}
+
+/* scroll bar */
+*::-webkit-scrollbar { 
+  width: 9px;
+}
+
+/* scroll bar bg */
+*::-webkit-scrollbar-track { 
+  background-image: url("/images/base/scroll-bg.png");
+  background-repeat: repeat-y;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-image: url("/images/base/scroll-bar.png");
+}
+
+/* box effects */
+.top {
+    height: 32px;
+}
+.bottom {
+    height: 32px;
+    margin-bottom: 8px;
+}
+.middle {
+    padding-left: 24px;
+    padding-right: 24px;
+    overflow: hidden;
+}
+
+/* main content boxes */
+#main .top {
+    background-image: url("/images/main-box/top.png");
+}
+#main .bottom {
+    background-image: url("/images/main-box/bottom.png");
+}
+#main .middle {
+    background-image: url("/images/main-box/middle.png");
+}
+
+/* side content boxes */
+#alt-right .top {
+    background-image: url("/images/side-box/top.png");
+}
+#alt-right .bottom {
+    background-image: url("/images/side-box/bottom.png");
+}
+#alt-right .middle {
+    background-image: url("/images/side-box/middle.png");
+}
+#alt .top {
+    background-image: url("/images/side-box/top.png");
+}
+#alt .bottom {
+    background-image: url("/images/side-box/bottom.png");
+}
+#alt .middle {
+    background-image: url("/images/side-box/middle.png");
+}
+
+/* main content */
+#main #middle {
+    position: relative;
+}
+#main #name {
+    position: absolute;
+    left: 256px;
+    top: 16px;
+}
+
+/* featured post */
+.featured-post {
+    width: 464px;
+    height: 20px;
+    background-image: url("/images/buttons/btn_normal.png");
+}
+
+.featured-post:hover {
+    background-image: url("/images/buttons/btn_hover.png");
+}
+
+/* what we're watching */
+#airing-static {
+    position: absolute;
+    left: 16px;
+    top: 416px;
+}
+#airing h2 {
+    display: inline;
+}
+#airing p {
+    display: inline;
+    position: absolute;
+    font-family: monospace;
+    font-style: italic;
+    z-index: 2;
+    font-size: 12px;
+}
+#airing-1-name {
+    margin-top: 12px;
+    left: 240px;
+}
+#airing-1-ep {
+    font-size: 8px;
+    margin-top: 315px;
+    left: 310px;
+}
+#airing-1-thumbnail {
+    position: absolute;
+    left: 222px;
+    top: 548px;
+}
+#airing-2-name {
+    margin-top: 614px;
+    left: 280px;
+}
+#airing-2-ep {
+    font-size: 8px;
+    margin-top: 633px;
+    left: 318px;
+}
+#airing-2-thumbnail {
+    position: absolute;
+    left: 222px;
+    top: 896px;
+}
+
+/* clock */
+#clock-hr-10 {
+    position: absolute;
+    left: 34px;
+    top: 1023px;
+}
+#clock-hr-1 {
+    position: absolute;
+    left: 72px;
+    top: 1023px;
+}
+#clock-dots {
+    position: absolute;
+    left: 104px;
+    top: 1030px;
+}
+#clock-min-10 {
+    position: absolute;
+    left: 130px;
+    top: 1023px;
+}
+#clock-min-1 {
+    position: absolute;
+    left: 168px;
+    top: 1023px;
+}
+
+/* news */
+#news .middle {
+   height: 386px;
+   word-wrap: break-word;
+   overflow-y: scroll;
+   overflow-x: hidden;
+}
+
+#news ul {
+    padding-left: 24px;
+}
+
+#news li {
+    color: rgb(244, 247, 204);
+    font-style: italic;
+    font-size: 12px;
+}
+
+#news p {
+    margin-top: 4px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: rgb(221, 217, 234);
+    font-style: normal;
+}
+
+/* posts */
+#alt-right #posts {
+    height: 386px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* showcases */
+.showcase {
+    position: relative;
+    text-overflow: clip;
+    width: 240px;
+}
+.showcase p {
+    position: absolute;
+    font-style: italic;
+    margin-top: 4px;
+    margin-left: 16px;
+    font-family: monospace;
+}
+
+/* misc things */
+#banner {
+    position: absolute;
+    left: 512px;
+    top: 32px;
+}
+#char {
+    position: absolute;
+    left: 8px;
+    top: 64px;
+}
+.icon-link {
+    position: relative;
+    top: -8px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
