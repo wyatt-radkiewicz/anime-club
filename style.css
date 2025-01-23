@@ -58,12 +58,12 @@ a {
 
 /* scroll bar bg */
 *::-webkit-scrollbar-track { 
-  background-image: url("/images/base/scroll-bg.png");
+  background-image: url("/images/base/scroll-bg.gif");
   background-repeat: repeat-y;
 }
 
 *::-webkit-scrollbar-thumb {
-  background-image: url("/images/base/scroll-bar.png");
+  background-image: url("/images/base/scroll-bar.gif");
 }
 
 /* box effects */
@@ -82,33 +82,33 @@ a {
 
 /* main content boxes */
 #main .top {
-    background-image: url("/images/main-box/top.png");
+    background-image: url("/images/main-box/top.gif");
 }
 #main .bottom {
-    background-image: url("/images/main-box/bottom.png");
+    background-image: url("/images/main-box/bottom.gif");
 }
 #main .middle {
-    background-image: url("/images/main-box/middle.png");
+    background-image: url("/images/main-box/middle.gif");
 }
 
 /* side content boxes */
 #alt-right .top {
-    background-image: url("/images/side-box/top.png");
+    background-image: url("/images/side-box/top.gif");
 }
 #alt-right .bottom {
-    background-image: url("/images/side-box/bottom.png");
+    background-image: url("/images/side-box/bottom.gif");
 }
 #alt-right .middle {
-    background-image: url("/images/side-box/middle.png");
+    background-image: url("/images/side-box/middle.gif");
 }
 #alt .top {
-    background-image: url("/images/side-box/top.png");
+    background-image: url("/images/side-box/top.gif");
 }
 #alt .bottom {
-    background-image: url("/images/side-box/bottom.png");
+    background-image: url("/images/side-box/bottom.gif");
 }
 #alt .middle {
-    background-image: url("/images/side-box/middle.png");
+    background-image: url("/images/side-box/middle.gif");
 }
 
 /* main content */
@@ -134,10 +134,10 @@ a {
 #banner {
     position: absolute;
     left: 512px;
-    top: 32px;
+    top: 15px;
 }
 #char {
     position: absolute;
     left: 8px;
-    top: 64px;
+    top: 23px;
 }

@@ -10,11 +10,11 @@
     width: 464px;
     height: 20px;
     margin-bottom: 8px;
-    background-image: url("/images/buttons/btn_normal.png");
+    background-image: url("/images/buttons/btn_normal.gif");
 }
 
 .featured-post:hover {
-    background-image: url("/images/buttons/btn_hover.png");
+    background-image: url("/images/buttons/btn_hover.gif");
 }
 
 /* what we're watching */
